@@ -875,6 +875,7 @@ cursor :text ; }
 	font-family : Trebuchet MS;
 	font-size : 40px;
 	margin: 0;
+	padding-bottom :30px;
 }
 
 .footer-distributed h3 span{
@@ -1428,6 +1429,50 @@ cursor :text ; }
     color: #fff;
     background-color: #fc6c3f;
 }
+
+/*---------------------
+10.about us 
+---------------------*/
+#our-team {
+	padding-top:70px;
+	padding-bottom:70px;
+}
+
+#our-team h4 {
+	color:#fc6c3f;
+	padding-bottom : 20px;
+}
+
+#our-team .text-center {
+	padding-top:20px;
+	margin-bottom:30px;
+	padding-bottom:10px;
+}
+
+#our-team .team img {
+	display :block;
+	border-radius:50%;
+	margin-left : auto;
+	margin-right : auto;
+	max-width : 33%; 
+	height : 100px;
+	
+}
+
+.vin 
+{
+	width:200px;
+	height:200px;
+}
+#our-team .team img:hover {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+
+
+
+
 
 
 #pattern-switcher {
